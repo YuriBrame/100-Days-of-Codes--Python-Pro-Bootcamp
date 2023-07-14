@@ -17,6 +17,8 @@ def compare(a, b):
 def higher_lower_game():
     option_a = select_option(data)
     option_b = select_option(data)
+    while option_a == option_b:
+          option_b = select_option(data)
     player_score = 0
     end_of_game = False
 
