@@ -71,7 +71,7 @@ def save():
 
             website_entry.delete(0, END)
             username_entry.delete(0, END)
-            username_entry.insert(END, string="yuribrame@gmail.com")
+            username_entry.insert(END, string="Your E-mail")
             password_entry.delete(0, END)
 
 
@@ -153,7 +153,7 @@ website_entry.grid(column=1, row=1, columnspan=2, sticky="EW")
 website_entry.focus()
 username_entry = Entry()
 username_entry.grid(column=1, row=2, columnspan=2, sticky="EW")
-username_entry.insert(END, string="yuribrame@gmail.com")
+username_entry.insert(END, string="Your E-mail")
 password_entry = Entry()
 password_entry.grid(column=1, row=3, sticky="EW")
 
